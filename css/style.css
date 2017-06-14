@@ -369,6 +369,25 @@ main form textarea {
 main form textarea {
     resize: none;
 }
+main form button {
+    width: 100%;
+    padding: 20px 0;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 53px;
+
+    background-color: #48bf72;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    font: 700 14px Lato, sans-serif;
+    outline: none;
+}
+
+main form button:hover {
+    cursor: pointer;
+}
 
 .main-footer {
     padding: 100px;
@@ -426,3 +445,4 @@ main form textarea {
 .main-footer .social-block a:last-child {
     margin-right: 0;
 }
+
